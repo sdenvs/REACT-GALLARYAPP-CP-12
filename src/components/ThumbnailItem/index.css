@@ -1,1 +1,11 @@
 /* Write your code here. */
+.thumbnailItem {
+}
+.thumbnailImage {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 80px;
+}
+.opacityImg {
+  opacity: 0.5;
+}
