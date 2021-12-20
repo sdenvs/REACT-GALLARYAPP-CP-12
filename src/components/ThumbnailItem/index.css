@@ -1,5 +1,11 @@
 /* Write your code here. */
-.thumbnailItem {
+.thumbnailItem button {
+  border-style: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .thumbnailImage {
   margin-right: 15px;

@@ -11,12 +11,14 @@ const ThumbnailItem = props => {
 
   return (
     <li className={`thumbnailItem ${isActive ? '' : 'opacityImg'}`}>
-      <img
-        onClick={triggerActive}
-        className="thumbnailImage"
-        src={thumbnailUrl}
-        alt={thumbnailAltText}
-      />
+      <button>
+        <img
+          onClick={triggerActive}
+          className="thumbnailImage"
+          src={thumbnailUrl}
+          alt={thumbnailAltText}
+        />
+      </button>
     </li>
   )
 }
